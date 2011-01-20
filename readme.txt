@@ -1,9 +1,9 @@
-=== Plugin Name ===
+=== ML Raw HTML ===
 Contributors: masterleep
 Tags: code, javascript, html, posts
 Requires at least: 3.0
 Tested up to: 3.0.4
-Stable tag: trunk
+Stable tag: 1.0.2
 
 Simple, efficient, and flexible raw html support via shortcodes.
 
@@ -38,26 +38,26 @@ If you have multiple ml_raw_html blocks on a page, there is a slight complicatio
 a different id attribute to allow the implementation to accurately select the correct block of text.
 For example:
 
-  Regular post content here...
+    Regular post content here...
 
-  [ml_raw_html id="1"]
-    <script type="text/javascript">
-    function foo(bar) {
-       frobozz = 'a';
-       bat = bar;
-    }
-    </script>
-  [/ml_raw_html]
+    [ml_raw_html id="1"]
+      <script type="text/javascript">
+      function foo(bar) {
+         frobozz = 'a';
+         bat = bar;
+      }
+      </script>
+    [/ml_raw_html]
 
-  More post content...
+    More post content...
 
-  [ml_raw_html id="2"]
-    <script type="text/javascript">
-    function foo2(bar) {
-       return 5;
-    }
-    </script>
-  [/ml_raw_html]
+    [ml_raw_html id="2"]
+      <script type="text/javascript">
+      function foo2(bar) {
+         return 5;
+      }
+      </script>
+    [/ml_raw_html]
 
 The id values are arbitrary, so long as they are unique on the page.
 
@@ -75,6 +75,12 @@ To install the plugin:
 1. Activate the plugin in the WordPress dashboard.
 
 == Changelog ==
+
+= 1.0.2 =
+* Readme and version tweaks.
+
+= 1.0.1 =
+* Readme had wrong plugin name.
 
 = 1.0 =
 * First usable version.

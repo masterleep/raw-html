@@ -3,7 +3,7 @@
 Plugin Name: ML Raw HTML
 Plugin URI: http://masterleep.com/projects/raw-html
 Description: Simple, efficient, and flexible raw html support via shortcodes.
-Version: 1.0
+Version: 1.0.2
 Author: Bill Lipa
 Author URI: http://masterleep.com/
 */
